@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonUI : MonoBehaviour
+public class StartGameButton : MonoBehaviour
 {
     [SerializeField] private string newGameLevel = "MainMenu";
 
