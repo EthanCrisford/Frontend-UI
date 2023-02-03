@@ -545,7 +545,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2100075366}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: BackToButton
+        m_MethodName: BackToSettingsButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1724,11 +1724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738ebd5ba230aab4eb8cc4f19d77a835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartgameButton: 
-  SettingsButton: 
-  QuitGameButton: 
-  BackButton: MainMenu
-  AudioOptionsButton: AudioSettings
 --- !u!4 &2100075367
 Transform:
   m_ObjectHideFlags: 0

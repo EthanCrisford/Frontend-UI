@@ -152,11 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738ebd5ba230aab4eb8cc4f19d77a835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartgameButton: 
-  SettingsButton: Settings
-  QuitGameButton: StartGame
-  BackButton: 
-  AudioOptionsButton: 
 --- !u!4 &265814921
 Transform:
   m_ObjectHideFlags: 0
@@ -391,7 +386,7 @@ GameObject:
   - component: {fileID: 494324017}
   - component: {fileID: 494324016}
   m_Layer: 5
-  m_Name: QuitButton
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +459,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 265814920}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: QuitButton
+        m_MethodName: BackToMainMenuButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -570,7 +565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Quit
+  m_text: 'Back
 
 '
   m_isRightToLeft: 0
